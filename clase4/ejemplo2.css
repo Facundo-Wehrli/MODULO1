@@ -1,0 +1,48 @@
+h2{
+    color: #0B54BD;
+}
+/*TODO explicación  de estilo basico
+h2 es el tipo de selector : etiqueta
+color es una propiedad y el valor es el valor que le damos 
+en este caso es #0B54BD que representa un colo en hexadecimal
+*/
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+p{
+    color:black;
+}
+
+.destacados{
+    color: chocolate;
+    font-style: italic;/*estilo cursiva */
+    font-size: 22px;/*tamaño*/	
+    font-weight: bold; /*resaltado*/
+
+}
+
+#rojo{
+    color: crimson;
+    height: 400px;/*alto*/
+    width: 300px;/*ancho*/
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-left: 3px dashed green; /*no importa el orden de los valores de la propiedad y si no se pone pondrá uno por defecto*/
+}
+
+#verdesito{
+    padding: 20px; /*margen interno desde los bordes hacia adentro*/
+    height: 400px;
+    width: 300px;
+    background-color: slategrey;
+    box-sizing: border-box; /*no le suma al ancho y al alto los 20, sino que los integra entonces en lugar de tenre 320 de ancho tenemos 300 y 20 dentro de los 300*/
+    border: 5px solid #000; /*grosor, tipo, color*/
+}
+
