@@ -1,0 +1,13 @@
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Inconsolata', monospace; */
+
+h2{
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+}
