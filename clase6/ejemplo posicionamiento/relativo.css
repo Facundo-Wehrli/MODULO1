@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: grey;
+    width: 60%;
+    margin: 0 auto; /*eje y, eje x */
+    height: 500px; /*para entender el ejemplo*/
+
+}
+
+.verde{
+    background-color: rgb(20, 204, 20);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /*eje y, eje x, abajo*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/*posicionamiento relativo: es el posicionamiento que se mueve en base a donde se ubicó el elemento*/
+.celeste{
+    background-color: rgb(8, 130, 187);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /*eje y, eje x, abajo*/
+   
+}
+
+.amarillo{
+    background-color: rgb(216, 219, 13);
+    width: 90%;
+    height: 150px;
+    margin: 0 auto 20px; /*eje y, eje x, abajo*/
+   
+}
