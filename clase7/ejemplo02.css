@@ -1,0 +1,32 @@
+.caja{
+    width: 300px; 
+    height: 250px;
+    background-color: aqua;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:110px;
+    transition: all 0.5s ease;
+    /* la transición siemmpre en la base */
+    cursor:pointer;
+}
+
+.caja:hover{
+    background-color: violet;
+    color: aliceblue;
+    transform: scale(1.2);
+}
+
+img{
+    filter: grayscale(0) contrast(100%) invert(0%);
+    transition: all 0.5s ease;
+    border: 15px black solid;
+}
+
+img:hover{
+    /* filter: grayscale(65%) contrast(101%) invert(100%); */
+    transform:scale(1.5);
+    opacity: 0.;
+    /* border: 10px grey solid transparent; */
+}
