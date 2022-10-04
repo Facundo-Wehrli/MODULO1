@@ -17,13 +17,12 @@
         background-color: red;
         transform: scale(0.9);
     }
-
-        {
+        
         35% {
             background-color: yellow;
             transform: scale(1.1);
         }
-    }
+    
 
     45% {
         background-color: black;
@@ -32,14 +31,14 @@
     }
 
 
-        {
+        
         65% {
             background-color: blue;
             transform: scale(0.9);
         }
-    }
+    
 
-        {
+        
         100% {
             background-color: blueviolet;
             transform: scale(1.1);
@@ -47,7 +46,7 @@
         }
     }
 
-}
+
 .caja:hover{
     animation: rectangulo 2s ease;
     animation-fill-mode:forwards;
