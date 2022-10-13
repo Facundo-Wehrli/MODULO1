@@ -200,7 +200,9 @@ justify-content: space-between;
 
 .formulario p label{
    min-width: 100px ;
-   background-color: yellow;
+   /* background-color: yellow; */
+   display: flex;
+   align-items: center;
 }
 
 .formulario p{
@@ -209,12 +211,44 @@ justify-content: space-between;
 
 .formulario p input,
 .formulario p textarea{
- background-color: orange;
  width: 100%;
+ background-color: #ccc;
+ border-radius: 5px;
+ border: 1px solid #999;
+ font-size: 14px;
+ padding: 6px;
 }
 
+.formulario textarea{
+    resize: none;
+    height: 100px;
+}
 
+.formulario p:nth-child(4){
+    align-items: start;
+}
 
+.formulario input[type="submit"]{
+    background-color: #2fa9be;
+    box-shadow: 0 0 7px gray;
+    font-size: 14px;
+    width: auto;
+    color: white;
+    /* margin-left: 80px; */
+     position: relative;
+    left: 415px; 
+    transition: all 0.3s ease;
+     
+}
 
+ /* esta es otra forma de acomodar el boton hacia el final */
+/* .formulario p{
+    display: flex;
+    justify-content: end;
+} */
 
+.formulario input[type="submit"]:hover {
+    background-color: #2a64a1;
+    cursor:pointer;
+}
 
